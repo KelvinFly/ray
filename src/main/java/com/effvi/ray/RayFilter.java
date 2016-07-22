@@ -28,6 +28,18 @@ public class RayFilter extends GenericFilterBean {
 		final HttpServletRequest req = (HttpServletRequest)request;
 		final HttpServletResponse rsp = (HttpServletResponse)response;
 		
+		//Ray BigPipe实现
+		rayBigPipe(req);
+		
+		
+		
+		
+	}
+	
+	/*
+	 * Ray BigPipe实现
+	 */
+	private void rayBigPipe(HttpServletRequest req) {
 		
 	}
 	
