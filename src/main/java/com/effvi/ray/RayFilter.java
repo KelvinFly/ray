@@ -72,6 +72,7 @@ public class RayFilter extends GenericFilterBean {
 		}
 		
 		WebApplicationContext rootContext = initWebApplicationContext();
+		
 		super.initFilterBean();
 	}
 	
