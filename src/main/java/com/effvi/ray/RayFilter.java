@@ -91,7 +91,7 @@ public class RayFilter extends GenericFilterBean {
 		}
 		
 //		this.modules = loadModule(rootContext);
-		
+
 		super.initFilterBean();
 	}
 	
